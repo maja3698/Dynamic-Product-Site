@@ -6,44 +6,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="#" />
-    <title>#</title>
-    <link rel="stylesheet" href="#">
+    <title>Product page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header>
-        <ul>
-            <img class="logo" src="#" alt="#">
-            <li>Home</li>
-            <li>Brands</li>
-            <li>Nike</li>
-            <li>Sahara Team India Fanwear Round Neck Jersey</li>
-            <li></li>
-        </ul>
+        <nav id="navigation">
+
+            <div id="nav_con">
+                <div class="logo">
+                    <img width="300vw" src="images/shoplogo.png" alt="logo of sporty">
+                </div>
+
+                <ul>
+                    <img class="search" width="35px" src="images/e-commerce-search.png" alt="search">
+
+                    <img class="logo" width="35px" src="images/e-commerce-like-heart.png" alt="likes">
+                    <img class="logo" width="35px" src="images/shopping-basket-commercial-tool.png" alt="basket">
+                </ul>
+            </div>
+        </nav>
     </header>
+    <ul id="breadcrumbs">
+        <li>
+            <a href="#">Homepage</a>
+        </li>
+        <li>
+            <a href="#">Section</a>
+        </li>
+        <li>
+            <a href="#">Brands</a>
+        </li>
+        <li> Sahara Team India Fanwear Round Neck Jersey
+        </li>
+    </ul>
 
     <main class="container">
-        <img class="product" src="#" alt="#">
+
+
+
+        <img class="product" src="images/1163.webp" alt="Sahara Team India Fanwear Round Neck Jersey">
+
         <section class="purchase_box">
             <h2>Sahara Team India Fanwear Round Neck Jersey</h2>
-            <p>Nike</p>
+            <h3>Nike</h3>
+            <p id="pricetag">300,00 kr.</p>
 
-            <select name="size" id="size">
-                <option>XS</option>
-                <option>S</option>
-                <option>M</option>
-                <option>L</option>
-                <option>XL</option>
-            </select>
-            <p>Choose size</p>
-            <button>BUY</button>
+            <label class="size-select">
+                <p class="choose">Choose size</p>
+                <select name="size" id="size">
+                    <option value="1">XS</option>
+                    <option value="2">S</option>
+                    <option value="3">M</option>
+                    <option value="4">L</option>
+                    <option value="5">XL</option>
+                </select>
 
+            </label>
 
+            <button class="purchase_button">Add to basket</button>
 
         </section>
 
+        <section class="product_desc">
+            <h1>Description</h1>
+            <dl>
+                <dt>Model name:</dt>
+                <dd>Sahara Team India Fanwear Round Neck Jersey</dd>
+                <dt>Color:</dt>
+                <dd>Blue</dd>
+                <dt>Inventory number:</dt>
+                <dd>1163</dd>
+            </dl>
+        </section>
+
     </main>
-    <footer></footer>
+    <footer>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+        <div>Data from <a href="https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset" title="www.kaggle.com">www.kaggle.com</a></div>
+    </footer>
 
 </body>
 

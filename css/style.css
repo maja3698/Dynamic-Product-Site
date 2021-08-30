@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* top nav */
+nav {
+  padding: 10px;
+}
+
+#nav_con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6vw;
+}
+
+/* Breadcrumbs */
+
+ul {
+  list-style-type: none;
+  padding-left: 2vw;
+}
+
+a:link,
+li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(0, 79, 140);
+}
+
+a:visited {
+  color: rgb(0, 79, 140);
+}
+
+#breadcrumbs {
+  display: flex;
+  gap: 3vw;
+  flex-wrap: wrap;
+}
+
+.container {
+  background-color: rgba(240, 240, 240, 0.618);
+  display: grid;
+  
+}
+
+/* product img */
+.product{
+  max-width: 550px;
+
+}
+
+/* purchase-box */
+
+.purchase_box {
+  background-color: #1b5aa6;
+  margin: 0px 10px;
+  padding:20px;
+}
+h2,
+h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 10px 10px;
+  padding-top: 10px;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+  text-decoration-line: underline;
+}
+
+#pricetag {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 5px 0px 10px 10px;
+  color: rgb(255, 115, 8);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* select-size box */
+
+.size-select{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.choose{
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  padding-left: 10px;
+}
+select {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(255, 132, 23);
+  border-radius: 10px;
+  font-size: 1.1em;
+  max-height: 50px;
+}
+
+/* product page button */
+
+.purchase_button{
+  width: 200px;
+  min-height: 50px;
+  background-color: rgb(255, 132, 0);
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-family:Helvetica, sans-serif;
+  font-weight: bold;
+  
+}
+
+/* product desc */
+
+.product_desc{
+  padding: 10px;
+}
+
+dt{
+  font-weight: 700;
+}
+
+
