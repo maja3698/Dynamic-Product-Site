@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="#" />
-    <title>Category</title>
+    <title>Brands</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -27,35 +27,19 @@
             </div>
         </nav>
     </header>
-    <ul id="breadcrumbs">
+    <ul class="breadcrumbs">
         <li>
             <a href="#">Homepage</a>
         </li>
-        <li>
-            <a href="#">Section</a>
-        </li>
-        <li>
-            <a href="#">Brands</a>
-        </li>
     </ul>
 
-    <main class="category_con">
+    <main class="brands_con">
+        <template id="brand-temp">
+            <div class="brand_box">
+                <a class="brandname" href="productlist.html?">brandname</a>
+            </div>
+        </template>
 
-        <div class="category_box">
-            <p id="category-text">Apparel</p>
-        </div>
-
-        <div class="category_box">
-            <p id="category-text">Accessories</p>
-        </div>
-
-        <div class="category_box">
-            <p id="category-text">Footwear</p>
-        </div>
-
-        <div class="category_box">
-            <p id="category-text">Sporting Goods</p>
-        </div>
 
 
     </main>
@@ -70,6 +54,6 @@
 </body>
 
 
-<script></script>
+<script src="js/brandlist.js"></script>
 
 </html>

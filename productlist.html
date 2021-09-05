@@ -29,62 +29,38 @@
         </nav>
     </header>
 
-    <ul id="breadcrumbs">
+    <ul class="breadcrumbs">
         <li>
             <a href="#">Homepage</a>
         </li>
         <li>
-            <a href="#">Section</a>
-        </li>
-        <li>
-            <a href="#">Brands</a>
+            <a href="brandlist.html">All brands</a>
         </li>
     </ul>
 
     <h1 class="brandname">NIKE</h1>
 
-    <main id="productlist_container">
-        <section>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
-                alt="Sahara Team India Fanwear Round Neck Jersey">
-            <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
-            <p>Nike</p>
-            <button>see more</button>
-        </section>
+    <main class="productlist_container">
+        <template id="productlist">
+            <section class="item">
+                <img src="https://kea-alt-del.dk/t7/images/webp/640/1163.webp"
+                    alt="Sahara Team India Fanwear Round Neck Jersey">
+                <h3>productname</h3>
+                <p class="info">articletype - brand</p>
+                <p class="price">1595,- DKK</p>
+                <div class="discount">
+                    <p>Get it now for 1560,- DKK</p>
+                    <p class=percentage>34% off</p>
+                </div>
+                <a href="product.html?id=1165">Read more</a>
+            </section>
 
-        <section>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1164.webp" alt="Blue T20 Indian Cricket Jersey">
-            <h3>Blue T20 Indian Cricket Jersey</h3>
-            <p>Nike</p>
-            <button>see more</button>
-        </section>
-
-        <section>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1165.webp" alt="Mean Team India Cricket Jersey">
-            <h3>Mean Team India Cricket Jersey</h3>
-            <p>Nike</p>
-            <button>see more</button>
-        </section>
-
-        <section>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1525.webp" alt="Deck Navy Blue Backpack">
-            <h3>Deck Navy Blue Backpack</h3>
-            <p>Puma</p>
-            <button>see more</button>
-        </section>
-
-        <section>
-            <img src="https://kea-alt-del.dk/t7/images/webp/640/1526.webp" alt="Big Cat Backpack Black">
-            <h3>Big Cat Backpack Black</h3>
-            <p>Puma</p>
-            <button>see more</button>
-        </section>
-
+        </template>
     </main>
 
 
 </body>
 
-<script></script>
+<script src="js/productlist.js"></script>
 
 </html>
